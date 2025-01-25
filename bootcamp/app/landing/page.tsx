@@ -10,24 +10,19 @@ const { Title, Paragraph } = Typography;
 // Sample trainer data
 const trainers = [
     {
-        name: 'John Doe',
-        bio: 'Expert in Python, Machine Learning, and AI. Over 10 years of teaching experience.',
-        image: '/me.jpg',
-    },
-    {
-        name: 'Jane Smith',
+        name: 'Mr Sandeepraj',
         bio: 'Certified Ethical Hacker with a passion for cybersecurity and ethical hacking.',
+        image: '/cyber.jpg',
+    },
+    {
+        name: 'Mr Jean-Eudes ASSOGBA',
+        bio: 'Certified Full Stack Developer with expertise in Python, JavaScript, and modern web technologies.',
         image: '/me.jpg',
     },
     {
-        name: 'Mark Wilson',
+        name: 'Mr McCarthy Sandy',
         bio: 'Cloud Computing Specialist with hands-on experience in AWS and Google Cloud.',
-        image: '/me.jpg',
-    },
-    {
-        name: 'Emily Clark',
-        bio: 'Full Stack Developer with expertise in Python, JavaScript, and modern web technologies.',
-        image: '/me.jpg',
+        image: '/mcctech.jpg',
     },
 ];
 

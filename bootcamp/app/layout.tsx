@@ -2,6 +2,7 @@ import { ReactNode } from 'react';
 import Link from 'next/link';
 import { FaFacebookF, FaTwitter, FaLinkedin } from 'react-icons/fa';
 import './globals.css';
+import Image from 'next/image';
 
 export const metadata = {
   title: '2 Weeks Practical Bootcamp',
@@ -20,7 +21,13 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="bg-gray-900 text-white">
-        <div className="text-2xl font-extrabold text-teal-400">MCCOTECH</div>
+        <div className="text-2xl font-extrabold text-teal-400">
+          <Image
+            src="/mcctechbg.png"
+            alt="MCCOTECH"
+            width={100}
+            height={100} />
+        </div>
         {/* Main Content */}
         <main
           className="min-h-screen py-12 px-6"

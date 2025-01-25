@@ -7,27 +7,22 @@ import Image from 'next/image';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 const { Title, Paragraph } = Typography;
 
-// Sample trainer data
+// trainer data
 const trainers = [
   {
-    name: 'John Doe',
-    bio: 'Expert in Python, Machine Learning, and AI. Over 10 years of teaching experience.',
-    image: '/me.jpg',
-  },
-  {
-    name: 'Jane Smith',
+    name: 'Mr Sandeepraj',
     bio: 'Certified Ethical Hacker with a passion for cybersecurity and ethical hacking.',
+    image: '/cyber.jpg',
+  },
+  {
+    name: 'Mr Jean-Eudes ASSOGBA',
+    bio: 'Certified Full Stack Developer with expertise in Python, JavaScript, and modern web technologies.',
     image: '/me.jpg',
   },
   {
-    name: 'Mark Wilson',
+    name: 'Mr McCarthy Sandy',
     bio: 'Cloud Computing Specialist with hands-on experience in AWS and Google Cloud.',
-    image: '/me.jpg',
-  },
-  {
-    name: 'Emily Clark',
-    bio: 'Full Stack Developer with expertise in Python, JavaScript, and modern web technologies.',
-    image: '/me.jpg',
+    image: '/mac.jpg',
   },
 ];
 
@@ -215,7 +210,7 @@ export default function HomePage() {
                   className="rounded-full mb-6 mx-auto border-4 border-blue-500 group-hover:border-orange-500 transition-colors"
                   width={160}
                   height={160}
-                  style={{ objectFit: 'cover' }}
+                  style={{ objectFit: 'cover', width: '160px', height: '160px' }}
                 />
                 <Title
                   level={4}
